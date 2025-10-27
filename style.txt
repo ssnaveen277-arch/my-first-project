@@ -1,0 +1,48 @@
+body {
+  background-color: #f8f9fa;
+  font-family: "Segoe UI", Arial, sans-serif;
+  margin: 0;
+  text-align: center;
+}
+
+header {
+  background-color: #ff7043;
+  color: white;
+  padding: 25px;
+}
+
+h1 {
+  margin: 0;
+}
+
+.content {
+  padding: 30px;
+}
+
+.food-card {
+  display: inline-block;
+  background: white;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  width: 250px;
+  margin: 20px;
+  transition: transform 0.2s;
+}
+
+.food-card:hover {
+  transform: scale(1.05);
+}
+
+.food-card img {
+  width: 100%;
+  height: 160px;
+  border-radius: 10px 10px 0 0;
+  object-fit: cover;
+}
+
+footer {
+  background-color: #ff7043;
+  color: white;
+  padding: 15px;
+  margin-top: 20px;
+}
